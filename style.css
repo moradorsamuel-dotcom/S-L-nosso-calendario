@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #4b0f1a;
+  color: #f5e9ec;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+input, textarea {
+  width: 95%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+textarea {
+  height: 120px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #8b1e2d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+#calendar div {
+  display: inline-block;
+  width: 42px;
+  margin: 4px;
+  padding: 10px;
+  background: #5c1623;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#photos img {
+  width: 80px;
+  margin: 5px;
+  border-radius: 6px;
+}
