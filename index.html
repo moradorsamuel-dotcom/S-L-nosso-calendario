@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosso Calendário ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="login">
+    <h1>Nosso Calendário ❤️</h1>
+    <input id="email" type="email" placeholder="Email">
+    <input id="password" type="password" placeholder="Senha">
+    <button onclick="login()">Entrar</button>
+  </div>
+
+  <div id="app" style="display:none">
+    <h2>Nosso amor desde 15/04/2025 ❤️</h2>
+
+    <div id="calendar"></div>
+
+    <div id="dayView" style="display:none">
+      <h3 id="dayTitle"></h3>
+
+      <textarea id="text" placeholder="Escreva tudo sobre esse dia..."></textarea>
+
+      <input type="file" id="photo" accept="image/*" multiple>
+
+      <div id="photos"></div>
+
+      <button onclick="saveDay()">Salvar ❤️</button>
+    </div>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
